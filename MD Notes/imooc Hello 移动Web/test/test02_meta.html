@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--test width
+<meta name="viewport" content="width=320"> -->
+<!--test initial-scale
+<meta name="viewport" content="initial-scale=1"> -->
+<!-- <meta name="viewport" content="initial-scale=0.5"> -->
+<!-- <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"> -->
+
+<!--
+通过width=device-width :使得 layout viewport 等于设备宽度
+通过 initial-scale=1: 使得layoutviewport = visual viewport
+-->
+<title>Test 02</title>
+</head>
+<style>
+
+	body{
+		margin: 0;
+		font-family: cursive;
+			font-size: 14px;
+			color: #72DFFF;
+	}
+
+	.pic{
+		width: 320px;
+		height: 568px;
+		background-color: #72DFFF;
+		color: white;
+		font-size: 60px;
+		text-align: center;
+		line-height: 568px;
+		font-family: cursive;
+	}
+</style>
+
+<body>
+	<div class="pic"> 320*568 </div>
+	<hr>
+	<script type="text/javascript">
+		document.write("layout viewport <br/>"+ "document.body.clientWidth = "+document.body.clientWidth+	"<br/><hr />");
+		document.write("visual viewport <br/>"+  "window.innerWidth = "+window.innerWidth+"<hr />");
+		document.write("缩放比<br /> =visual/layout<br />=window.innerWidth/document.body.clientWidth<br /> = "+window.innerWidth/document.body.clientWidth);
+
+
+	</script>
+</body>
+</html>
