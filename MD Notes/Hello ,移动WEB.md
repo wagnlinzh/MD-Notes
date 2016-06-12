@@ -253,7 +253,7 @@ Tap事件是自定义事件.
 - touchstart
 - touchmove
 - touchend
-- touchcancel 
+- touchcancel   
 
 
 
@@ -269,7 +269,7 @@ clientY: 触摸目标在视口中的y坐标
 
 identifier: 标识触摸的唯一ID
 
-pageX 触摸目标在页面中的x坐标
+pageX: 触摸目标在页面中的x坐标
 
 pageY 触摸目标在页面中的y坐标
 
