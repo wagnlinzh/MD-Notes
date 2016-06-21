@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>闭包,函数,函数表达式</title>
+  <script src="jquery-2.1.4.min.js" charset="utf-8"></script>
+  <script src="a.js" charset="utf-8"></script>
+
+</head>
+<body>
+
+  <script type="text/javascript">
+
+           var name = "The Window";
+
+           var object = {
+               name : "My Object",
+
+               getName: function(){
+                   return this.name;
+               }
+           };
+
+           console.log(object.getName());     //"My Object"
+           console.log((object.getName)());   //"My Object"
+           console.log((object.getName = object.getName)());   //"The Window" in non-strict mode
+
+       </script>
+
+</body>
+</html>
