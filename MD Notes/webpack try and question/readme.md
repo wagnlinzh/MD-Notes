@@ -4,9 +4,19 @@
 
 -  css-loader?moudle是个好东西,但是对没有设置的来说,其他的全都无效了.... 怎么解决..
 
+
+
+
+
 详见main6.jsx
 
+
+
+
+
 阮一峰的demo 从main7 中开始讲插件
+
+
 
 
 
@@ -48,6 +58,10 @@ webpack-dev-server之后东西都放在了head中,样式,and so on 不好处理.
 
 貌似和添加顺序有关.具体原因不详.
 
+
+
+
+
   ProvidePlugin 这个可以理解为全局变量. 不需要require.就能够全局使用. 详见main1302 
 
 
@@ -62,4 +76,12 @@ webpack-dev-server之后东西都放在了head中,样式,and so on 不好处理.
 
 在webpack hash 化之后怎么定位.
 
-定位定位,定位的问题.
+定位定位,定位的问题. 怎么在不改变原有的index.html的基础上重构.
+
+
+
+
+
+## 问一个正确的问题:
+
+**怎么在不改变index.html的基础上, 使用webpack 打包,并实现组件化->模块化.**
