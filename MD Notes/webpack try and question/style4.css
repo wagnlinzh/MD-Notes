@@ -1,0 +1,106 @@
+#section1{
+  background: lightblue;
+  width: 90%;
+  height: 230px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10px;
+}
+
+#section2{
+  background: url('./img/a.jpeg');
+  background-size: 100% 100%;
+  max-width: 580px;
+  height: 430px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10px;
+
+}
+
+#section2 p{
+      color: #CDDC39;
+      font-weight: bolder;
+      font-family: "Microsoft YaHei";
+        margin-left: 10px;
+}
+
+#section2 .p-hr{
+    color: #EEE;
+}
+
+#section3{
+  background: lightblue;
+  width: 90%;
+  height: 230px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10px;
+}
+
+#section4{
+  background: lightblue;
+  width: 90%;
+  height: 230px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10px;
+}
+
+#section5{
+  background: lightpink;
+  width: 90%;
+  height: 230px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10px;
+}
+
+
+#section6{
+  background: lightpink;
+  max-width: 90%;
+  height: 230px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10px;
+}
+
+
+#section13{
+  background: #DDD;
+  max-width: 90%;
+  height: 230px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10px;
+}
+
+
+
+#section1302{
+  background: #DDD;
+  max-width: 90%;
+  height: 230px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10px;
+}
+
+#section14{
+  background: #DDD;
+  max-width: 90%;
+  height: 230px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:10px;
+}
