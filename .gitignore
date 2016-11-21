@@ -18,6 +18,7 @@ node_modules
 *.zip
 *.7z
 *.rar
+book
 
 # Windows shortcuts
 *.lnk
